@@ -5,15 +5,15 @@ echo "Welcome!!!"
 #Data types 
 #Strings - any message inside quotes
 
-name="Akwaima Pius"
+name="Jerkins Juicy"
 age="70"
-school="Manful Ict"
+school="Ganga Ict"
 
-echo "My name is $name and I am $age years old, I school at $school located at Nwaniba"
+echo "My name is $name and I am $age years old, I school at $school located at Naniba"
 
 get=${name:0:8}
 echo "$get"
-#to get manful... first 3 is starting point while the second 3 is the stopping point from the start point
+#to get ganga... first 3 is starting point while the second 3 is the stopping point from the start point
 man=${school:3:3}
 echo $man
 #Datatype - integer and float
@@ -54,7 +54,7 @@ echo "Lets display ${array2[*]} and ${array3[*]}"
 
 #Associative arrray using -A
 declare -A cap
-cap=([name]="Akwaima" [age]="70" [location]="Heaven on Earth")
+cap=([name]="Jerkins" [age]="70" [location]="Heaven on Earth")
 echo ${cap[*]}
 
 #to get the keys we use 
